@@ -40,7 +40,7 @@ end
 def play(board)
   play[board] = 0
   until play[board] == 8
-    turn[board]
+    turn(board)
     play[board] += 1
   end
 end

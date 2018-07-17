@@ -37,10 +37,10 @@ end
 
 # Define your play method below
 
-def play
-  play = 0
-  until play == 8
-    turn[board]
-    play += 1
+def play(board)
+  play(board) = 0
+  until play(board) == 8
+    turn(board)
+    play(board) += 1
   end
 end
